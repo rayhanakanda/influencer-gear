@@ -1,0 +1,42 @@
+/* Google fonts  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.intro-content h1{
+    font-size: 50px;
+}
+.intro-content{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 70%;
+    padding-left: 15%;
+}
+.link-button{
+    text-decoration: none;
+    background-color:#E02C6D;
+    color: white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+}
+.brand{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(1, 1, 31);
+    color: white;
+    padding: 10px;
+}
