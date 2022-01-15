@@ -32,11 +32,43 @@ section{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.product{
+    background-color: rgb(236, 236, 145);
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    padding: 30px;
+}
 
+.product-banner img {
+    height: 300px;
+    width: 350px;
+}
+.ratings{
+    color: orange;
+    display: flex;
+}
+.grey-color{
+    color: grey;
+}
+.see-more-product{
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 700;
+    display: flex;
+    position: ;
+}
+.additional{
+    display: flex;
+}
 
 footer{
     text-align: center;
     background-color: rgb(1, 1, 31);
     color: white;
-    padding: 10px;
+    padding: 3px;
 }
